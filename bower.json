@@ -1,0 +1,11 @@
+{
+  "name": "level",
+  "version": "0.0.0",
+  "main": "level.scss",
+  "author": "Mobify",
+  "ignore": [
+    "CHANGELOG.md",
+    "package.json",
+    "test.html"
+  ]
+}
