@@ -3,20 +3,12 @@
 // Document
 // ---
 
-// Use a sensible box model.
-
-* {
-    box-sizing: border-box;
-}
-
-// 1. Set default font family to sans-serif.
-// 2. Prevent iOS text size adjust after orientation change, without disabling
+// 1. Prevent iOS text size adjust after orientation change, without disabling
 //    user zoom.
 
 html {
-    font-family: sans-serif; // 1
-    -ms-text-size-adjust: 100%; // 2
-    -webkit-text-size-adjust: 100%; // 2
+    -ms-text-size-adjust: 100%; // 1
+    -webkit-text-size-adjust: 100%; // 1
 }
 
 // Remove default margin in all browsers.
@@ -29,11 +21,20 @@ body {
 // New HTML5 elements
 // ---
 
-// Correct `block` display not defined for `main` in mobile Safari 6 and 
+// Correct `block` display not defined for `main` in mobile Safari 6 and
 // Android 4.3.
 
 main {
     display: block;
+}
+
+// Normalize vertical alignment of `progress` in Chrome and Firefox.
+
+audio,
+canvas,
+progress,
+video {
+    vertical-align: baseline;
 }
 
 // Prevent modern browsers from displaying `audio` without controls.
@@ -69,13 +70,6 @@ h1 {
     margin: 0.67em 0;
 }
 
-// Address styling not present in IE 8/9.
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
 // Address inconsistent and variable font size in all browsers.
 
 small {
@@ -108,6 +102,14 @@ sub {
 
 figure {
     margin: 1em 40px;
+}
+
+// Address differences between Firefox and other browsers.
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
 }
 
 // Contain overflow in all browsers.
@@ -147,7 +149,7 @@ textarea {
 
 // Address inconsistent `text-transform` inheritance for `button` and `select`.
 // All other form control elements do not inherit `text-transform` values.
-// Correct `button` style inheritance in Firefox and Opera. Correct `select` 
+// Correct `button` style inheritance in Firefox and Opera. Correct `select`
 // style inheritance in Firefox.
 
 button,
