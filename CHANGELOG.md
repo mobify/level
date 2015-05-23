@@ -1,5 +1,9 @@
 === HEAD
 
+=== 0.0.2 (May 23, 2015)
+
+- Add `menu` element to HTML5 display definitions.
+
 === 0.0.1 (Dec 11, 2014)
 
 - Removed global `box-sizing` set to `border-box` since this is the standard box model. 
