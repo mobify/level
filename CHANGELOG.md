@@ -1,5 +1,10 @@
 === HEAD
 
+=== 0.1.0 (June 2, 2015)
+
+- Expand project scope to include universal base styles that are different from browser defaults. Update documentation accordingly.
+- Re-add `box-sizing: border-box`.
+
 === 0.0.2 (May 23, 2015)
 
 - Add `menu` element to HTML5 display definitions.
