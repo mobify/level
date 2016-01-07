@@ -1,0 +1,22 @@
+{
+  "name": "level",
+  "version": "1.0.1",
+  "description": "Mobify's own Normalize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobify/level.git"
+  },
+  "keywords": [
+    "level"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobify/level/issues"
+  },
+  "homepage": "https://github.com/mobify/level#readme"
+}
