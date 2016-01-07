@@ -1,6 +1,6 @@
 {
   "name": "level",
-  "version": "1.0.1",
+  "version": "0.1.1",
   "description": "Mobify's own Normalize",
   "main": "index.js",
   "scripts": {
